@@ -12,6 +12,8 @@ This is a Python project script wirtten to perform exploratory data analysis on 
  - new york city 
  
  - washington
+
+  and was also scripted to be an interactive program that allows its users to explore the statistics by filtering by city, month and day of week.
  
 
 ### List Of Software Used
@@ -26,7 +28,7 @@ This is a Python project script wirtten to perform exploratory data analysis on 
 1. chicago.csv
 2. new_york_city.csv
 3. washington.csv
-#
+
 
 ### Credits
 Special recognitiongoes to Udacity Nanodegree team that made solving this project easy for me through their thought lessons i went through.
