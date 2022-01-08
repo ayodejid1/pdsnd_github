@@ -2,6 +2,8 @@ import time
 import pandas as pd
 import numpy as np
 
+# load data into CITY_DATA
+
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -10,7 +12,7 @@ MONTH_DATA = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
 
 DAY_DATA = ['all', 'monday', 'tuesday', 'wednesday', 'friday', 'saturday', 'sunday']
 
-
+# build filtering function for city. month and day_of_week
 def get_filters():
 
     """
